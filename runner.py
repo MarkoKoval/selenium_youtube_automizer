@@ -18,7 +18,7 @@ send_password(browser, password)
 
 browser.get("https://www.youtube.com/watch?v={}".format(video_id))
 sleep(1)  # 5
-##
+########
 #sign_in(browser, videos)
 sign_in(browser, username, password, video_id, "like", 1)
 
