@@ -4,15 +4,12 @@ from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 import multiprocessing
 import time
-from test_params import username, password, video_id
+from test_params import username, password, video_id, geckodriver_exe_file_path
 from selenium.webdriver.firefox.options import Options
 from selenium import webdriver
 
 
-
-
 def send_login(browser, username_str):
-    #print(browser.current_url)
     username = browser.find_element_by_id('identifierId')
     username.send_keys(username_str)
     next_button = browser.find_element_by_id('identifierNext')
@@ -29,7 +26,7 @@ def send_password(browser, password_str):
     sign_in_button = browser.find_element_by_id('passwordNext')
     sign_in_button.click()
     browser.implicitly_wait(4)
-    #sleep(1)
+    sleep(2)
 
 
 def evaluate_video(browser, evaluate_way): #like, dislike, remove like, dislike
@@ -43,27 +40,21 @@ def evaluate_video(browser, evaluate_way): #like, dislike, remove like, dislike
 
     if evaluate_way == "like":
         if liked == "true":
-           # print(3)
             return
         if liked == "false":
-            #print(4)
             browser.find_element_by_xpath("//*[@id='top-level-buttons']/ytd-toggle-button-renderer[1]/a").click()
             return
     if evaluate_way == "dislike":
         if disliked == "true":
-           # print(5)
             return
         if disliked == "false":
-           # print(6)
             browser.find_element_by_xpath("//*[@id='top-level-buttons']/ytd-toggle-button-renderer[2]/a").click()
             return
     if evaluate_way == "dismiss_all":
         if liked == "true":
-           # print(7)
             browser.find_element_by_xpath("//*[@id='top-level-buttons']/ytd-toggle-button-renderer[1]/a").click()
             return
         if disliked == "true":
-           # print(8)
             browser.find_element_by_xpath("//*[@id='top-level-buttons']/ytd-toggle-button-renderer[2]/a").click()
             return
 
@@ -74,10 +65,8 @@ def subscribe_unsubscribe(browser, need_subscribe): #subscribe if 1 unsubscribe 
 
     if subscribe_:
         if need_subscribe == 1:
-          #  print(11)
             return
         if  need_subscribe == 0:
-          #  print(12)
             subscribe = browser.find_element_by_xpath("//*[@id='subscribe-button']/ytd-subscribe-button-renderer/paper-button")
             subscribe.click()
             g = browser.find_element_by_xpath("//*[@id='confirm-button']/a")
@@ -85,10 +74,8 @@ def subscribe_unsubscribe(browser, need_subscribe): #subscribe if 1 unsubscribe 
             return
     if not subscribe_:
         if need_subscribe == 0:
-         #   print(13)
             return
         if need_subscribe == 1:
-           # print(14)
             subscribe = browser.find_element_by_xpath(
                 "//*[@id='subscribe-button']/ytd-subscribe-button-renderer/paper-button")
             subscribe.click()
@@ -119,16 +106,13 @@ def sign_in_(browser,  video_id, evaluate_way, need_subscribe):
 
 
 def sign_in( values):
-  #  print(values)
     start = time.time()
     options = Options()
     options.headless = True
     options.set_preference("media.volume_scale", "0.0")
 
-
-
     browser = webdriver.Firefox(options=options,
-                                executable_path=r'C:\Users\Acer\Desktop\Python Projects\geckodriver.exe')
+                                executable_path=geckodriver_exe_file_path)
 
     # SEND LOGIN AND PASSWORD FOR YOUTUBE
     browser.get((
@@ -143,7 +127,7 @@ def sign_in( values):
     browser.implicitly_wait(4)
 
     if evaluate_way in ["dislike", "like", "dismiss_all"]:
-        print("1")
+
         evaluate_video(browser, evaluate_way)
 
     subscribe_unsubscribe(browser, need_subscribe)
@@ -152,9 +136,10 @@ def sign_in( values):
     browser.quit()
     end = time.time()
     print(end - start)
+    sleep(1)
 
 
-def find_sums(values):
+def do_stuff_in_some_processes(values):
     print(multiprocessing.cpu_count())
     with multiprocessing.Pool(multiprocessing.cpu_count()) as pool:
         pool.map(sign_in,  values)

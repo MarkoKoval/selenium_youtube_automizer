@@ -4684,3 +4684,578 @@ console.error: BroadcastService:
   Stack:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
 
+1551216996031	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.6lU5ZUClkgPm"
+*** You are running in headless mode.
+1551217002317	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551217002317	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551217016032	Marionette	INFO	Listening on port 2270
+1551217016498	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GF[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] FaJavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out [GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+JavaScript error: , line 0: uncaught exception: out of memory
+[GFX
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0097,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0086,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[Parent 9920, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 493
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 9920, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 9920, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1551217081105	Marionette	INFO	Stopped listening on port 2274
+sbin/player_ias-vflkaDufl/en_US/base.js, line 1886: TypeError: a is undefined
+lla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+JavaScript error: , line 0: uncaught exception: out of memory
+[Child 13788, MediaPlayback #1] WARNING: 150aac08040 OpenCubeb() failed to init cubeb: file z:/build/build/src/dom/media/AudioStream.cpp, line 382
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3629
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+JavaScript error: , line 0: uncaught exception: out of memory
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+JavaScript error: , line 0: uncaught exception: out of memory
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoout of memory: 0x0000000000020000 bytes requested
+der<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #1] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+[Child 13788, MediaPlayback #2] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+JavaScript error: , line 0: uncaught exception: out of memory
+out of memory: 0x0000000000001000 bytes requested
+[Child 13788, MediaPlayback #3] WARNING: Decoder=1509d8d1600 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - mozilla::MediaResult __cdecl mozilla::FFmpegVideoDecoder<46465650>::CreateImage(int64_t, int64_t, int64_t, MediaDataDecoder::DecodedData &): image allocation error: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+JavaScript error: , line 0: uncaught exception: out of memory
+Assertion failure: [unhandlable oom] Failed to allocate elements while tenuring., at z:/build/build/src/js/src/vm/JSContext.cpp:1486
+1551217063038	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.ZfdEADqytoVT"
+*** You are running in headless mode.
+1551217067899	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.lphJJVlJvp4C"
+*** You are running in headless mode.
+1551217071311	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screens1551217072269	Marionette	INFO	Listening on port 2658
+1551217072761	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSetticonsole.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monJavaScript error: , line 0: uncaught exception: out of memory
+[Parent 4556, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 449
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0097,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0086,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[Parent 4556, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 449
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 4556, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 4556, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 14296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 14296, Chrome_Chil1551217106247	Marionette	INFO	Stopped listening on port 2658
+me/common/ipc_channel_win.cc, line 493
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 14260, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 14260, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+[Child 12692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 14260, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1551217106046	Marionette	INFO	Stopped listening on port 2693
+1551217391521	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.PQVFQAEvB0kG"
+*** You are running in headless mode.
+1551217406463	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551217406463	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+[Parent 14380, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332[1551217423468	Marionette	INFO	Listening on port 3231
+1551217423837	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threconsole.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+or: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 493
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0097,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0086,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 7052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 7052, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+[Child 17244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 7052, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 7052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Chil1551217429579	Marionette	INFO	Stopped listening on port 3233
+1551217433437	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.4BA3GgcYgM4U"
+*** You are running in headless mode.
+1551217464991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551217464991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+Javconsole.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+[Parent 17752, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 449
+[Parent 17752, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 493
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0097,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0086,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[Parent 17752, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 449
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 17752, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 17752, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[1551217487385	Marionette	INFO	Stopped listening on port 3551
+x0000000000007FE8 bytes requested
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0097,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0086,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[Parent 7628, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+JavaScript error: , line 0: uncaught exception: undefined
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0097,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0086,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0097,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0086,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0097,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0086,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+[Parent 7628, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1551217868173	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.GHPbPbLTe1v2"
+*** You are running in headless mode.
+1551217871157	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551217871158	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+out of memory: 0x00000000000002B0 bytes requested
+out of memory: 0x0000000000001178 bytes requested
+ue/GeckoChildProcessHost.cpp, line 472
+[Parent 6876, Gecko_IOThread] WARNING: Failed to launch tab subprocess: file z:/build/build/src/ipc/glue/GeckoChildProcessHost.cpp, line 472
+JavaScript error: chrome://global/content/bindings/browser.xml, line 1013: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIScriptSecurityManager.getLoadContextCodebasePrincipal]
+JavaScript error: chrome://global/content/bindings/browser.xml, line 234: TypeError: this.frameLoader.tabParent is null
+[GFX1-]: Mismatched driver versions between the registry  and DLL(s) , 21.20.16.4534 reported.
+1551217880306	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foregrounconsole.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0097,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E0086,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+ot defined
+1551217889037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.RRIfectmbcGd"
+*** You are running in headless mode.
+1551217889919	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551217889920	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551217895323	Marionette	INFO	Listening on port 4360
+1551217895569	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: out of memory
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551218254387	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.bKPiwHv3bboR"
+*** You are running in headless mode.
+1551218255598	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551218255599	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551218260637	Marionette	INFO	Listening on port 4493
+1551218261847	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551218311941	Marionette	INFO	Stopped listening on port 4493
+[Child 6248, MediaPlayback #3] WARNING: Decoder=1b560045200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 6248, MediaPlayback #2] WARNING: Decoder=1b560045200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[C[Child 17748, MediaPlayback #1] WARNING: Decoder=29cf4d97800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 330JavaScript error: https://www.youtube.com/yts/jsbin/spf-vflDKOOox/spf.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.youtube.com/yts/jsbin/spf-vflDKOOox/spf.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+[Child 4492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chro[Parent 7412, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 5908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chrom[Child 6248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 17444, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11624, Chrome_ChildThread] WARNING: pager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Parent 14248, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 14248, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 14248, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17616, Ch1551219352903	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.qCmgOL4ZXEjS"
+*** You are running in headless mode.
+1551219354175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551219354175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551219359456	Marionette	INFO	Listening on port 4885
+1551219359563	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551219403418	Marionette	INFO	Stopped listening on port 4885
+[Parent 2160, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 2160, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 8992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 8992, [Parent 2160, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, lle z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16904JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Child 11416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1551219408565	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.ykcKjx7fa0Kl"
+*** You are running in headless mode.
+1551219410680	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551219410680	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551219414608	Marionette	INFO	Listening on port 5252
+1551219415174	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551219446084	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.sJ7ZxX0yuFFR"
+*** You are running in headless mode.
+1551219447689	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551219447689	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551219451831	Marionette	INFO	Listening on port 5545
+1551219451938	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551219491409	Marionette	INFO	Stopped listening on port 5537
+[Child 13316, MediaPlayback #1] WARNING: Decoder=26ff0052e00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Parent 12808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 12808, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 12808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 13316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.[Parent 12808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 14824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+mise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 16736, MediaPlayback #1] WARNING: Decoder=13693207c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 16736, MediaPlayback #3] WARNING: Decoder=13693207c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 16736, MediaPlayback #3] WARNING: Decoder=13693207c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3309
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 2392, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1673[Parent 2392, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 3988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 3988, Chrome_C1551219494526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.vIE9VZkQrbU2"
+1551219496849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.C2Rm6VUHZPg0"
+*** You are running in headless mode.
+1551219498898	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+155121949881551219499304	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetcconsole.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message1551219540875	Marionette	INFO	Stopped listening on port 5901
+[Child 17860, Chrome_ChildThread] WARNING: pipe error: 109: file
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17860, Chrome_ChildThr[Parent 6904, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+ng: too late to send/recv, messages will be lost
+
+[Parent 10080, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 16804, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6744, Chrome_ChildThread] WARNING: p1551219538861	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.igOuMLKkvssW"
+*** You are running in headless mode.
+1551219541747	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.0G6SCGGw5Pz1"
+*** You are running in headless mode.
+1551219542843	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host perm1551219543251	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSetticonsole.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/mon1551219577546	Marionette	INFO	Stopped listening on port 6234
+JavaScript error: https://www.youtube.com/yts/jsbin/spf-vflDKOOox/spf.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.[Parent 4916, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+JavaScript error: https://www.youtube.com/yts/jsbin/spf-vflDKOOox/spf.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+[Child 9984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/re1551219590530	Marionette	INFO	Stopped listening on port 6348
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 17088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 8556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 8556, Chrome_Childl be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 4916, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1[Parent 4916, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+annel_win.cc, line 332
+[Child 11661551219583881	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile.KmFcOEgtIWjX"
+*** You are running in headless mode.
+1551219584950	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551219584950	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551219589418	Marionette	INFO	Listening on port 6604
+1551219589666	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1551219624516	Marionette	INFO	Stopped listening on port 6597
+[Parent 6724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 6724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+[Child 16724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16724, Chrome_ChildThread
+###!!! [Child][MessageChannel] Error: (msgtype=0x5F0029,na1551219635996	Marionette	INFO	Stopped listening on port 6724
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 17140, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 9256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 9256, Chrome_ChildThread]
