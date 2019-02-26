@@ -3,15 +3,22 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 import multiprocessing
-br = None
+import time
+from test_params import username, password, video_id
+from selenium.webdriver.firefox.options import Options
+from selenium import webdriver
+
+
+
+
 def send_login(browser, username_str):
-    print(browser.current_url)
+    #print(browser.current_url)
     username = browser.find_element_by_id('identifierId')
     username.send_keys(username_str)
     next_button = browser.find_element_by_id('identifierNext')
     next_button.click()
     browser.implicitly_wait(4)
-    sleep(1)
+    sleep(2)
 
 
 def send_password(browser, password_str):
@@ -22,7 +29,7 @@ def send_password(browser, password_str):
     sign_in_button = browser.find_element_by_id('passwordNext')
     sign_in_button.click()
     browser.implicitly_wait(4)
-    sleep(1)
+    #sleep(1)
 
 
 def evaluate_video(browser, evaluate_way): #like, dislike, remove like, dislike
@@ -32,31 +39,31 @@ def evaluate_video(browser, evaluate_way): #like, dislike, remove like, dislike
 
     disliked = browser.find_element_by_id("top-level-buttons").find_elements_by_tag_name("ytd-toggle-button-renderer")[1].find_element_by_tag_name("yt-icon-button").get_attribute("aria-pressed")
 
-    print("{} {} {}".format(evaluate_way,liked,disliked))
+    #print("{} {} {}".format(evaluate_way,liked,disliked))
 
     if evaluate_way == "like":
         if liked == "true":
-            print(3)
+           # print(3)
             return
         if liked == "false":
-            print(4)
+            #print(4)
             browser.find_element_by_xpath("//*[@id='top-level-buttons']/ytd-toggle-button-renderer[1]/a").click()
             return
     if evaluate_way == "dislike":
         if disliked == "true":
-            print(5)
+           # print(5)
             return
         if disliked == "false":
-            print(6)
+           # print(6)
             browser.find_element_by_xpath("//*[@id='top-level-buttons']/ytd-toggle-button-renderer[2]/a").click()
             return
     if evaluate_way == "dismiss_all":
         if liked == "true":
-            print(7)
+           # print(7)
             browser.find_element_by_xpath("//*[@id='top-level-buttons']/ytd-toggle-button-renderer[1]/a").click()
             return
         if disliked == "true":
-            print(8)
+           # print(8)
             browser.find_element_by_xpath("//*[@id='top-level-buttons']/ytd-toggle-button-renderer[2]/a").click()
             return
 
@@ -67,10 +74,10 @@ def subscribe_unsubscribe(browser, need_subscribe): #subscribe if 1 unsubscribe 
 
     if subscribe_:
         if need_subscribe == 1:
-            print(11)
+          #  print(11)
             return
         if  need_subscribe == 0:
-            print(12)
+          #  print(12)
             subscribe = browser.find_element_by_xpath("//*[@id='subscribe-button']/ytd-subscribe-button-renderer/paper-button")
             subscribe.click()
             g = browser.find_element_by_xpath("//*[@id='confirm-button']/a")
@@ -78,10 +85,10 @@ def subscribe_unsubscribe(browser, need_subscribe): #subscribe if 1 unsubscribe 
             return
     if not subscribe_:
         if need_subscribe == 0:
-            print(13)
+         #   print(13)
             return
         if need_subscribe == 1:
-            print(14)
+           # print(14)
             subscribe = browser.find_element_by_xpath(
                 "//*[@id='subscribe-button']/ytd-subscribe-button-renderer/paper-button")
             subscribe.click()
@@ -95,37 +102,12 @@ def status(browser):
         browser.find_element_by_id("top-level-buttons").find_elements_by_tag_name("ytd-toggle-button-renderer")[
             0].find_element_by_tag_name("yt-icon-button").get_attribute("aria-pressed")))
 
-"""
-def evaluate( videos):
-    global br
-    for key in videos.keys():
-        sleep(1)
-        br.get("https://www.youtube.com/watch?v={}".format(key))
-        sleep(1)
-        evaluate_video(br, videos[key]["evaluate"])
-        sleep(1)
-        subscribe_unsubscribe(br, videos[key]["subscribe"])
-        sleep(1)
-        status(br)
 
-
-def sign_in(browser, videos):
-    global br
-    br = browser
-    status(br)
-    br.implicitly_wait(4)
-
-    with multiprocessing.Pool() as pool:
-        pool.map(evaluate, videos)
-
-
-"""
-def sign_in(browser, username_str, password_str, video_id, evaluate_way, need_subscribe):
+def sign_in_(browser,  video_id, evaluate_way, need_subscribe):
+    browser.get("https://www.youtube.com/watch?v={}".format(video_id))
+    sleep(1)  # 5
     status(browser)
     browser.implicitly_wait(4)
-
-    #with multiprocessing.Pool() as pool:
-     #   pool.map(evaluate, numbers)
 
     if evaluate_way in ["dislike", "like", "dismiss_all"]:
         print("1")
@@ -135,3 +117,44 @@ def sign_in(browser, username_str, password_str, video_id, evaluate_way, need_su
 
     status(browser)
 
+
+def sign_in( values):
+  #  print(values)
+    start = time.time()
+    options = Options()
+    options.headless = True
+    options.set_preference("media.volume_scale", "0.0")
+
+
+
+    browser = webdriver.Firefox(options=options,
+                                executable_path=r'C:\Users\Acer\Desktop\Python Projects\geckodriver.exe')
+
+    # SEND LOGIN AND PASSWORD FOR YOUTUBE
+    browser.get((
+                    'https://accounts.google.com/signin/v2/identifier?passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fnext%3D%252F%26hl%3Den%26app%3Ddesktop%26action_handle_signin%3Dtrue&hl=en&uilel=3&service=youtube&flowName=GlifWebSignIn&flowEntry=ServiceLogin&cid=1&navigationDirection=forward'))
+    send_login(browser, username)
+    send_password(browser, password)
+
+    video_id_,  need_subscribe, evaluate_way = values
+    browser.get("https://www.youtube.com/watch?v={}".format(video_id_))
+    sleep(1)  # 5
+    status(browser)
+    browser.implicitly_wait(4)
+
+    if evaluate_way in ["dislike", "like", "dismiss_all"]:
+        print("1")
+        evaluate_video(browser, evaluate_way)
+
+    subscribe_unsubscribe(browser, need_subscribe)
+
+    status(browser)
+    browser.quit()
+    end = time.time()
+    print(end - start)
+
+
+def find_sums(values):
+    print(multiprocessing.cpu_count())
+    with multiprocessing.Pool(multiprocessing.cpu_count()) as pool:
+        pool.map(sign_in,  values)
